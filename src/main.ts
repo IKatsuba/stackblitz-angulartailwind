@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 
 @Component({
   standalone: true,
   selector: 'app-root',
+  changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div class="rounded-2xl bg-gray-800 px-8 py-10 m-20">
       <img class="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56" src="https://github.com/IKatsuba.png?size=500" alt="">
