@@ -14,9 +14,11 @@ import { bootstrapApplication } from '@angular/platform-browser';
       </div>
       <ul role="list" class="mt-6 flex justify-center gap-x-6">
         <li>
-          <a href="https://twitter.com/katsuba_igor" class="text-gray-400hover:text-gray-300" target="_blank">
-            <span class="sr-only">Twitter</span>
-            <svg class="h-8 w-8 text-gray-500"  viewBox="0 0 24 24"  fill="none" stroke="currentColor"  stroke-width="2"  stroke-linecap="round" stroke-linejoin="round">  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.480 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 020-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" /></svg>
+          <a href="https://twitter.com/katsuba_igor" class="text-gray-400 hover:text-gray-300" target="_blank">
+            <span class="sr-only">X</span>
+            <svg class="h-8 w-8 text-gray-500" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path fill="currentColor" d="M17.53 3H21l-7.19 8.21L22 21h-6.25l-5-6.13L4.47 21H1l7.57-8.65L2 3h6.38l4.38 5.38L17.53 3Zm-1.06 15h1.67l-5.37-6.61-1.34-1.65L5.5 5h-1.7l5.47 6.74 1.34 1.65L16.47 18Z"/>
+            </svg>
           </a>
         </li>
         <li>
